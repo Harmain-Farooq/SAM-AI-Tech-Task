@@ -7,8 +7,7 @@ This repository contains my submissions for the SAM AI technical assessment task
 ## 📁 Repository Structure
 
 * **[Task 1: Customer Churn Dashboard](./Task-1-Customer-Churn-Dashboard)** - Power BI dashboard focused on tracking and predicting customer retention and risk factors.
-* **[Task 2: HR Analytics Dashboard](./Task-2-HR-Analytics-Dashboard)** - Power BI dashboard designed to monitor employee performance, distribution, and workload management metrics.
-* **Task 3: [Task 3 Name]** - Brief summary of what your third task does.
+* **[Task 2: HR Analytics Dashboard](./Task-2-HR-Analytics-Dashboard)** - Power BI dashboard designed to monitor employee performance, distribution, and workload management metrics. 
 
 ---
 
