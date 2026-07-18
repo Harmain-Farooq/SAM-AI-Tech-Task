@@ -8,6 +8,7 @@ This repository contains my submissions for the SAM AI technical assessment task
 
 * **[Task 1: Customer Churn Dashboard](./Task-1-Customer-Churn-Dashboard)** - Power BI dashboard focused on tracking and predicting customer retention and risk factors.
 * **[Task 2: HR Analytics Dashboard](./Task-2-HR-Analytics-Dashboard)** - Power BI dashboard designed to monitor employee attrition, salary distributions, performance, and hiring trends.
+* **[Task 3: Financial Health Dashboard](./Task-3-Financial-Health-Dashboard)** - Power BI dashboard built to evaluate organizational corporate performance, profitability margins, liquidity, and revenue forecasting.
 
 ---
 
@@ -66,6 +67,34 @@ A comprehensive, 4-page HR Analytics dashboard designed to evaluate talent acqui
 *   **Advanced Visualizations:** Sankey Charts, Tree Maps, Waterfall Charts, and Dual-Axis Trend Lines.
 *   **Formulas & Metrics:** DAX for structured rolling averages, headcount tracking, and attendance percentage allocations.
 
+---
+
+## 💰 Task 3: Financial Health Dashboard
+
+A comprehensive corporate finance dashboard designed to evaluate core liquidity positions, structural income statements, operational efficiency ratios, and variance between projected and actual revenue streams.
+
+### 📈 Corporate Financial KPIs
+* **Total Credit Sales:** $2.44M
+* **Working Capital:** $7.00M
+* **Net Burn Rate:** $890K
+* **AR Days (Accounts Receivable Turnover):** 50.69 Days
+* **Average Net Margin:** 28.68%
+
+### 🔍 Key Insights & Features
+* **Income Statement Matrix:** 
+    * Consolidates performance tracking for the first half of 2026, summarizing **$3,045,000** in Total Revenue against **$1,228,400** in COGS, yielding a strong Gross Profit of **$1,816,600**. 
+    * Factors in **$940,000** in Operating Expenses (OpEx) to close out H1 with a Net Income of **$876,600**.
+* **Liquidity & Solvency Analysis:** Features a target gauge monitoring the **Quick Ratio**. The current standing sits at **1.99**, nearly perfectly aligned with the standard corporate health benchmark target of **2.00**.
+* **Revenue vs. Forecast Variance:** Integrates a scatter plot quadrant mapping actual vs. forecasted revenue by fiscal quarters (e.g., Q1-2026 vs Q2-2026) to flag target variance.
+* **Cash Flow Dynamics:** Utilizes a combined bar and trend visualization mapping Net Income against Net Cash Flow month-by-month (January to June), highlighting month-end cash flow peaks such as February ($0.14M) and May ($0.16M).
+
+### 🛠️ Tech Stack
+*   **Business Intelligence:** Power BI Desktop
+*   **Data Modeling:** Power Query, Star Schema relationships, Date Tables
+*   **Analysis Metrics:** DAX formulas evaluating financial margins, inventory liquidity ratios, and time-intelligence forecasting models.
+
+---
+
 ## 📁 Files & Navigation
-Each folder (`/Task-1-...` and `/Task-2-...`) contains the corresponding `.pbix` dashboard file. Download and open them in Power BI Desktop to interact with the visual filters and custom dynamic slicers.
+Each folder (`/Task-1-...`, `/Task-2-...`, and `/Task-3-...`) contains the corresponding `.pbix` dashboard file. Download and open them in Power BI Desktop to interact with the visual filters, date matrices, and custom dynamic slicers.
 
